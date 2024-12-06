@@ -1,4 +1,7 @@
 import { Scene } from "phaser";
+import { Preloader } from "./scenes/Preload";
+import { SplashScene } from "./scenes/SplashScene";
+import { MainScene } from "./scenes/MainScene";
 
 const config = {
     type: Phaser.AUTO,
@@ -7,7 +10,7 @@ const config = {
     parent: 'game-container',
     backgroundColor: '#028af8',
     scene: [
-        Preloader,
+        Preloaderr,
         SplashScene,
         MainScene,
     ],
