@@ -25,5 +25,7 @@ export class Preloader extends Scene{
     }
     create (){
         this.scene.start('SplashScene');
+        this.bgSound = this.sound.add("inGameSound");
+        this.bgSound.play({ loop: true });
     }
 }
